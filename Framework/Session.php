@@ -47,7 +47,7 @@ class Session
      * @param string $key
      * @return bool
      */
-    public static function gas($key)
+    public static function has($key)
     {
         return isset($_SESSION[$key]);
     }
